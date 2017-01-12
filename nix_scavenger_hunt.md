@@ -133,7 +133,7 @@ If so, list them here:*
 * Run `ps aux` and review the results. (Hint: Use `man` to learn more about the `ps` command and options.) 
 
 *How do you interpret what you see here?*
-It's showing me all the processes that are happening on the machine I'm connected to. I'm using CodeAnywhere, and it shows that there are other people using CodeAnywhere on this machine at the same time.
+It's showing me all the processes that are happening on the computer I'm connected to. I'm using CodeAnywhere, and it shows that there are other people using CodeAnywhere on this computer at the same time.
 
 
 * Run `top` and review the results. (Hint: You may need to use `ctrl-c` to get out of this app.) 
