@@ -88,7 +88,7 @@ Use `cd` to move to `~`. *Run `pwd` and paste the response here:*
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. 
 
 *How many files do you find?*
-3
+I found 3 files.
 
 
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
@@ -107,7 +107,7 @@ It shows the last command I typed
 * Press the up arrow a few more times. 
 
 *What do you see?*
-It continues to scroll through previously typed commands.It
+It continues to scroll through previously typed commands in reverse order.
 
 * Run the `history` command. 
 
@@ -122,12 +122,12 @@ All previously typed commands in order.
 cabox
 
 * Discover who else is on your system with the `who` command. *Are any other users using your system? 
-No.
+There are no other users using my system.
 
 If so, list them here:*
 
 * How long has your system been running? Use `uptime` to see, and *paste the result here:* 
-2:31
+The system has been running for 2 hours, 31 minutes.
 
 
 * Run `ps aux` and review the results. (Hint: Use `man` to learn more about the `ps` command and options.) 
@@ -146,12 +146,12 @@ It's showing all kinds of stats for the computer, and it's changing, so it's sho
 * Make sure you are in the `challenge_files` directory. Use the `*` wildcard to find all the files that have the word "credit" in the filename. 
 
 *How many files did you find?*
-2
+I found 2 files.
 
 * Use the `more` command to view one of the `credit_cards` files you just discovered. (Hint: Type `q` to quit viewing the file. Press the `spacebar` to page down. Use your keyboard arrows to move up/down.) 
 
 *What is the date in the file you have viewed?*
-1-15-2015
+The date in the file is: 1-15-2015
 
 * Use the `find` command to search for files more effectively. Search the sub-directories under `challenge_files` to find the location of the file named `modi_laboriosam.txt`. 
 
@@ -165,7 +165,7 @@ It's showing all kinds of stats for the computer, and it's changing, so it's sho
 * Use the `grep` command to search for text within a file. Use `grep` on all the `.user` files in `challenge_files` to find which files contain "WA" (the abbreviation for Washington state).
 
 *How many files did you find?*
-2
+I found 2 files.
 
 
 * Use the `-r` option of `grep` to *recursively* find the text "Waldo" hidden in a file somewhere under the `challenge_files` directory. 
